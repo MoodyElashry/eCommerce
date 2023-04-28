@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" conte nt="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="overflow-x-hidden">
+    <nav class="nav1">
+    <ul class="nav-ul1">
+        <li>About</li>
+        <li>Contact</li>
+        <li>Help</li>
+        <li>FAQs</li>
+    </ul>
+    <div class="nav-ul2">
+
+        <ul class="nav-ul21">
+            <li><div class="dropdown nav-ul2 mt-0">
+                <button class="btn btn-light dropdown-toggle dropdown1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  My Account
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></li>
+            <li><div class="dropdown nav-ul2 mt-0">
+                <button class="btn btn-light dropdown-toggle dropdown1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  USD
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></li>
+            <li><div class="dropdown nav-ul2 mt-0">
+                <button class="btn btn-light dropdown-toggle dropdown1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  EN
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div></li>
+        </ul>
+    </div>
+    </nav>
+    <nav style="height: 70px;">
+        <div class="nav2 mt-3 justify-content-between">
+            <div class="text1">TASK</div>
+            <div class="srchbar mt-2 d-flex">
+                <div><input type="text" name="" id="" placeholder="Search for products"></div>
+                <div><i class="fa-solid fa-magnifying-glass srchbtn" style="color: #ffd334;"></i></div>
+            </div>
+            <div class="cs">
+                <div style="color: gray;">Customer Service</div>
+                <div style="font-weight: 700;font-size:20px;">+0123456789</div>
+            </div>
+
+        </div>
+    </nav>
+    <nav class="nav3 d-flex">
+        <div>
+            <div class="dropdown">
+                <button class="dropdown-toggle dropdown2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bars" style="color: #000000;"></i> Categorys
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <ul class="nav-ul2">
+                  <li>Home</li>
+                  <li>Shop</li>
+                  <li>Shop Detail</li>
+                  <li><button class="dropdown-toggle dropdown3" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul></li>
+                  <li>Contact</li>
+              </ul>
+            </div>
+       <div class="likes d-flex">
+        <div class="d-flex mx-3"><i class="fa-solid fa-heart" style="color:#ffd334;"></i><p class="like-text">0</p></div>
+        <div class="d-flex"><i class="fa-solid fa-cart-shopping" style="color: #ffd334;"></i><p class="like-text">0</p></div>
+       </div>
+    </nav>
+    <div class="d-flex">
+
+        <div class="carousel1 mt-3 mx-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel" style="height:300px;">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption d-none d-md-block justify-content-center align-content-center carousel-text position-absolute">
+                        <h5>Men Fashion</h5> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit voluptatem ex amet </p>
+                        <div class="car-btn">
+                            Shop Now
+                        </div>
+                      </div>
+                    <img src="assets/images/carousel-1.jpg" data-bs-interval="10000" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block justify-content-center align-content-center carousel-text position-absolute">
+                        <h5>Women Fashion</h5> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit voluptatem ex amet </p>
+                        <div class="car-btn">
+                            Shop Now
+                        </div>
+                      </div>
+                      
+                      <img src="assets/images/carousel-2.jpg" data-bs-interval="2000" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block justify-content-center align-content-center carousel-text position-absolute">
+                        <h5>Kids Fashion</h5> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit voluptatem ex amet </p>
+                        <div class="car-btn">
+                            Shop Now
+                        </div>
+                      </div>
+                    <img src="assets/images/carousel-3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+    
+        </div>
+        
+        <div class="carousel2 mt-3 mx-2 d-block">
+          <div>
+
+            <div style="width: 400px; height: 170px; overflow-y: hidden; overflow-x: hidden;"   class="anim-shop">
+  
+                  <img src="assets/images/carousel-1.jpg" class="position-relative z-0 carousel2-img" alt=""></img>
+                  <div class="overlay-1 z-1">
+                      <p class="text12 mt-2">SAVE 20%</p>
+                      <h2>Special Offer</h2>
+                      <div class="anim-btn">
+                          Shop Now
+  
+                      </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+            
+              
+              <div style="width: 400px; height: 170px; overflow-y: hidden; overflow-x: hidden;"   class="anim-shop mt-2">
+    
+                <img src="assets/images/carousel-3.jpg" class=" carousel2-img" alt="" width="400px" height="170px"></img>
+                <div class="overlay-2 z-1">
+                    <p class="text12 mt-2">SAVE 20%</p>
+                    <h2>Special Offer</h2>
+                    <div class="anim-btn">
+                        Shop Now
+    
+                    </div>
+                </div>
+              </div>
+          </div>  
+          </div>
+          <div class="piece2 mt-5 mb-5 d-flex">
+            <div class="feautres">
+              <div class="container p-3 mx-5 d-flex"><i class="fa-sharp fa-solid fa-check " style="color: #ffd334;font-weight: 700;font-size: 40px;"></i><p>Quality Product</p></div>
+            </div>
+            <div class="feautres">
+              <div class="container p-3 d-flex mx-4"><i class="fa-sharp fa-solid fa-shipping-fast " style="color: #ffd334;font-weight: 700;font-size: 40px;"></i> <p>Free Shipping</p></div>
+            </div>
+            <div class="feautres">
+              <div class="container p-3 d-flex mx-4"><i class="fa-solid fa-arrow-up-from-bracket" style="color: #ffd334;font-weight: 700;font-size: 40px;"></i><p>14-Day Return</p></div>
+            </div>
+            <div class="feautres">
+              <div class="container p-3 d-flex mx-4"><i class="fa-sharp fa-solid fa-phone-volume " style="color: #ffd334;font-weight: 700;font-size: 40px;"></i><p>24/7 Support</p></div>
+            </div>
+          </div>
+          <div class="d-flex">
+
+            <h2 style="margin: 20px;margin-right: 10px;">CATEGORIES</h2><span class="line-sep1"></span>
+          </div>
+
+         <div class="piece3 d-flex">
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-7.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-8.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-9.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-1.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+         </div>
+         <div class="piece3 d-flex">
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-2.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-3.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-4.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-5.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+         </div>
+         <div class="piece3 mb-4 d-flex">
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-6.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-7.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-8.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+          <div class="con1 d-flex hover-pr">
+            <div class="overflow-x-hidden overflow-y-hidden " style="width: 100px;height:80px; background-color:white;">
+
+              <img src="assets/images/product-9.jpg" class="img_fluid" width="100px" height="80px" alt="">
+            </div>
+            <div class="align-content-center mt-3 mx-3">
+              <h5>Category Name</h5>
+              <p>100 products</p>
+            </div>
+          </div>
+         </div>
+         <div class="d-flex ">
+
+          <h2 style="margin: 20px;margin-right: 10px;">FEATURED PRODUCTS</h2><span class="line-sep1"></span>
+        </div>
+        
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+        
+        <div class="piece4">
+          <div class="row1 d-flex">
+            <div class="con12 z-1">
+              <div class="img-over overflow-hidden">
+                <img src="assets/images/product-1.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+                <div class="z-1 position-absolute overlay-text">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-arrows-rotate"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+              </div>
+              
+              <div class="piece4-2"> 
+                <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+                <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+                <div class=" justify-content-center align-content-center">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="ratings">
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star"></i>
+                      </div>
+                      <p class="review-count">(99)</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="con12 z-1">
+            <div class="img-over overflow-hidden">
+              <img src="assets/images/product-2.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+              <div class="z-1 position-absolute overlay-text">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+              </div>
+
+            </div>
+            
+            <div class="piece4-2"> 
+              <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+              <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+              <div class=" justify-content-center align-content-center">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="ratings">
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="review-count">(99)</p>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="con12 z-1">
+          <div class="img-over overflow-hidden">
+            <img src="assets/images/product-3.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+            <div class="z-1 position-absolute overlay-text">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+  
+            </div>
+  
+          </div>
+          
+          <div class="piece4-2"> 
+            <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+            <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+            <div class=" justify-content-center align-content-center">
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="ratings">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <p class="review-count">(99)</p>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  <div class="con12">
+    <div class="img-over overflow-hidden">
+      <img src="assets/images/product-4.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+      <div class="z-1 position-absolute overlay-text">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-arrows-rotate"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+      </div>
+
+    </div>
+    
+    <div class="piece4-2"> 
+      <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+      <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+      <div class=" justify-content-center align-content-center">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="ratings">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p class="review-count">(99)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+          <div class="row2 d-flex">
+            <div class="con12 z-1">
+              <div class="img-over overflow-hidden">
+                <img src="assets/images/product-5.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+                <div class="z-1 position-absolute overlay-text overlay-text1">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-arrows-rotate"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+              </div>
+              
+              <div class="piece4-2"> 
+                <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+                <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+                <div class=" justify-content-center align-content-center">
+                  <div class="d-flex justify-content-between align-items-center">
+                      <div class="ratings">
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star rating-color"></i>
+                          <i class="fa fa-star"></i>
+                      </div>
+                      <p class="review-count">(99)</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="con12 z-1">
+            <div class="img-over overflow-hidden">
+              <img src="assets/images/product-6.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+              <div class="z-1 position-absolute overlay-text overlay-text1">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+              </div>
+
+            </div>
+            
+            <div class="piece4-2"> 
+              <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+              <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+              <div class=" justify-content-center align-content-center">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="ratings">
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="review-count">(99)</p>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="con12 z-1">
+          <div class="img-over overflow-hidden">
+            <img src="assets/images/product-7.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+            <div class="z-1 position-absolute overlay-text overlay-text1">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+  
+            </div>
+  
+          </div>
+          
+          <div class="piece4-2"> 
+            <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+            <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+            <div class=" justify-content-center align-content-center">
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="ratings">
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star rating-color"></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <p class="review-count">(99)</p>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+  
+  
+  <div class="con12">
+    <div class="img-over overflow-hidden">
+      <img src="assets/images/product-8.jpg" alt="" width="300px" height="300px" class="z-0" style="transition-duration: 0.4s;">
+      <div class="z-1 position-absolute overlay-text overlay-text1">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-arrows-rotate"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+      </div>
+
+    </div>
+    
+    <div class="piece4-2"> 
+      <p style="font-size:15px;font-weight:600;">Product Name Goes Here</p>
+      <p class="mt-0">$123.00 <span style="text-decoration-line: line-through;color:gray">$123.00</span></p>
+      <div class=" justify-content-center align-content-center">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="ratings">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p class="review-count">(99)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+    </div>
+    <div class="piece5">
+      <div class="">
+
+        <div class="carousel32 mt-3 mx-2 d-flex carousel3">
+          <div>
+  
+            <div style="width: 400px; height: 180px; overflow-y: hidden; overflow-x: hidden;"   class=" anim-shop">
+  
+                  <img src="assets/images/carousel-1.jpg" class="position-relative z-0 carousel2-img carousel3-img" width="400px" height="170px" alt=""></img>
+                  <div class="overlay-1 overlay-3 z-1" sty >
+                      <p class="text-13 mt-2 top-100">SAVE 20%</p>
+                      <h2>Special Offer</h2>
+                      <div class="anim-btn">
+                          Shop Now
+  
+                      </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+            
+              
+              <div style="width: 400px; height: 180px; overflow-y: hidden; overflow-x: hidden;margin-left: 500px;"   class=" anim-shop mt-2">
+    
+                <img src="assets/images/carousel-3.jpg" class=" carousel2-img carousel-3img2 img-fluid " alt="" width="400px" height="170px"></img>
+                <div class="overlay-1 overlay-3 z-1" style="width: 390px; height: 180px;top:3000;right: 10px;">
+                    <p class="text-13 mt-2">SAVE 20%</p>
+                    <h2>Special Offer</h2>
+                    <div class="anim-btn">
+                        Shop Now
+    
+                    </div>
+                </div>
+              </div>
+          </div>  
+          </div>
+      </div>
+      </div>
+      
+      <footer>
+        <div class="foot-1">
+          <h5 class="">GET IN TOUCH</h5>
+          <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sit totam libero nihil</p>
+          <div class="d-flex" style="height:50px; ">
+            <i class="fa-solid fa-location-dot" style="color: #ffd334;font-size: 20px;"></i>
+            <p style="font-size:20px; margin-left: 10px;">123 Street ,New York , USA</p>
+
+          </div>
+          <div  class="d-flex">
+            <i class="fa-solid fa-envelope" style="color: #ffd334;font-size: 20px;"></i><p style="font-size:20px; margin-left: 10px;">info@example.com</p>
+ 
+          </div>
+          <div class="d-flex">
+            <i class="fa-solid fa-phone" style="color: #ffd334;font-size: 20px;"></i>
+            <p style="font-size:20px; margin-left: 10px;">+1234567890</p>
+
+
+          </div>
+
+        </div>
+        <div class="foot-1 foot-list">
+          <h5 class="">Quick Shop</h5>
+          <ul>
+            <li>Home</li>
+            <li>Our Shop</li>
+            <li>Shop Detail</li>
+            <li>Shopping Cart</li>
+            <li>Checkout</li>
+            <li>Contact Us</li>
+          </ul>
+
+        </div>
+        <div class="foot-1 foot-list">
+          <h5 class="">My Account</h5>
+          <ul>
+            <li>Home</li>
+            <li>Our Shop</li>
+            <li>Shop Detail</li>
+            <li>Shopping Cart</li>
+            <li>Checkout</li>
+            <li>Contact Us</li>
+          </ul>
+
+        </div>
+        <div class="foot-4 foot-1">
+          <h5>NEWSTELLER</h5>
+          <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sit totam </p>
+          <div class="d-flex">
+            <input type="email" name="" id="" placeholder="Your Email Address">
+            <button class="foot-btn">Sign Up</button>
+          </div>
+          <h5 class="mt-5">FOLLOW US</h5>
+          <div class="d-flex icns">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          
+
+        </div>
+
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
